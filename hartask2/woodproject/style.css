@@ -1,0 +1,600 @@
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+        /* overflow-x: hidden; */
+    }
+    #container{
+        height: 115%;
+        width: 100%;
+        background-image: url(https://www.wallsauce.com/uploads/wallsauce-com/images/thumbs/624/1dbce3294b70ced4ff70755f46e608b0a05df29d_800__R_N_90.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow-x: hidden;
+
+    }
+    #nav{
+        width: 100%;
+        height: 15%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+    }
+
+    .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+
+    }
+    .right h4{
+        font-size:12px ;
+        font-weight: 200;
+    }
+    .right button{
+        padding: 10px 30px;
+        color: white;
+        background:rgb(145, 139, 139)
+    }
+    .left{
+        height: 80%;
+    }
+    .center{
+        /* background: yellow; */
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+    .center h4{
+        font-size: 20px;
+        color: white;
+    }
+    .center h1{
+        font-size: 60px;
+        padding: 20px 0;
+        color: white;
+    }
+    .center>button
+    {
+    padding: 15px 35px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    }
+    #page1{
+        height: 100%;
+        width: 100%;
+        /* background-color: aqua; */
+        position: relativepage8;
+    }
+    .nav1{
+        width: 100%;
+        height: 10%;
+        /* background-color: rgb(206, 134, 134); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relativepage3;
+    }
+    .nav1 h2{
+        font-size: 3vw;
+        font-weight: 400;
+    }
+
+    #page2{
+        height: 90%;
+        width: 100%;
+        /* background-color: rgb(3, 53, 53); */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .page2_cards{
+        width: 30%;
+        /* background: rgba(219, 131, 131, 0.301); */
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .page2_cards h2{
+        letter-spacing: 5px;
+        font-size: 1.7vmax;
+        font-weight: 300    ;
+    }
+    .page2_cards button{
+        width: 40%;
+        height: 10%;
+        background: white;
+        border: 1px solid rgb(44, 44, 44);
+    
+        
+    }
+    button:hover{
+        background-color: rgba(165, 42, 42, 0.459);
+    }
+    #w1{
+        width:90%;
+        height: 70%;
+        background-image: url(https://cdn.shopify.com/s/files/1/0503/8243/8596/products/ummed-wooden-sofa-set_d82c60c0-07bf-4f66-86e2-8fe642e54ecc.jpg?v=1645421542);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    #w2{
+        width: 90%;
+        height: 67%;
+        background-image: url(https://www.architectureartdesigns.com/wp-content/uploads/2014/12/759-630x455.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #w3{
+        width: 90%;
+        height: 70%;
+        background-image: url(https://5.imimg.com/data5/LK/IV/JE/SELLER-29181293/wooden-cabinet-interior-design-service-500x500.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;   
+    }
+    #w4{
+        width: 90%;
+        height: 70%;
+        background-image: url(https://5.imimg.com/data5/LK/IV/JE/SELLER-29181293/wooden-cabinet-interior-design-service-500x500.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;   
+    }
+    .page2_cards{
+        width: 30%;
+        /* background: rgba(219, 131, 131, 0.301); */
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .page3{
+        height: 100%;
+        width: 100%;
+        /* background-color:red; */
+        display: flex;
+        position: relative;
+    }
+    #left{
+        height: 100%;
+        width: 50%;
+        background-image: url(https://media.designcafe.com/wp-content/uploads/2020/08/08174923/wood-kitchen-cabinets.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .page2_cards{
+        width: 30%;
+        /* background: rgba(219, 131, 131, 0.301); */
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #right{
+        height: 70%;
+        width: 50%;
+        /* background-color: #ac9393; */
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding-left: 30px;
+        
+    }
+    #right span{
+        width: 9vw;
+        height: .5vh;
+        background: rgb(48, 22, 22);
+    }
+    #right h1{
+        font-size: 40px;
+    }
+    #right p{
+        line-height: 35px;
+    }
+    #right button{
+      padding: 15px 35px;
+      border: 2px solid brown;
+      background: transparent;
+      color: brown;
+
+    }
+    .nav1{
+        width: 100%;
+        height: 30%;
+    }
+    .nav1>h1
+    {
+        transform: translateY(50px);
+        font-size: 50px;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+    .page4{
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+        display: flex;
+        position: relative;
+        
+    }
+    #L{
+        width: 50vw;
+        height: 100vh;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5ed52827541a915be69dc593/1595347099366-44610WTYFL5M8C2YWCX1/07.png?format=1000w);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* position:absolute; */
+    } 
+    #R{
+        width: 50vw;
+        height: 100vh;
+
+    }  
+    #R1{
+        width: 50vw;
+        height: 50vh; 
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5ed52827541a915be69dc593/1591212998648-KAWSP1UFZW4ANPUS3E90/03.png?format=500w);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #R1>button{
+        position: absolute;
+        padding: 10px 30px;
+        background-color: black;
+        color: #fff;
+        margin-top: 25px !important;
+        transform: translateY(265px);
+    }
+    #R2{
+        width: 50vw;
+        height: 50vh; 
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5ed52827541a915be69dc593/1591213005164-CFZCI7FMF1VP4FU2EOOS/06.png?format=500w);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #R2>button{
+        position: absolute;
+        /* top: 10%; */
+        padding: 10px 30px;
+        background-color: black;
+        color: #fff;
+        margin-top: 20px !important;
+        transform: translateY(270px);
+    }
+    .page5{
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+        display: flex;  
+        /* position: relative; */
+
+    }
+    /* #navbar5{
+        height: 30vh;
+        width: 100vw;
+        background-color: white;
+    } */
+    R1{
+        width: 50vw;
+        height: 50vh; 
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5ed52827541a915be69dc593/1595347328682-OUZ5CI1GGIZVUQ590CUI/08.png?format=500w);
+    }
+    
+    .page6{
+        width: 100% !important;
+        height: 100vh !important;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.37)),url(https://images.unsplash.com/photo-1553728880-5ed855a08f58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        /* gap: 30px; */
+        /* background: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #navbar6{
+        height: 30%;
+        width: 100vw;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        /* position: relative       */
+    }
+    #navbar6 button{
+        padding: 20px 40px;
+        border: 2px solid brown;
+        background: transparent;
+        color: brown;
+    }
+    /* R1>button{
+    padding: 50px 35px;
+    transform: translate(-50%,-50%);
+    } */
+    #L>button{
+    padding: 10px 20px;
+    /* margin: 40px; */
+     background-color:black;
+     transform: translateY(627px);
+     color: white;
+     border: none;
+    }
+    .page4{
+        position: relative;
+        
+    }
+    .page7{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(104, 166, 207);
+        /* display: flex; */
+        
+    }
+    nav{
+        height: 25%;
+        width: 100%; 
+        background-color: lightcoral;
+    }
+    .p1{
+        width: 16%;
+        height: 32%;
+        background-image: url(https://media.istockphoto.com/id/1421235872/photo/traditional-wood-carvings-of-embekka-devalaya.jpg?s=1024x1024&w=is&k=20&c=7DodoYKgKGFuqByoXBIeqrfFC7lItsttjw92MszONbc=);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .p2{
+        width: 16%;
+        height: 32%;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_B-pPUOYkEWXRhVulqTAtqa7YqDQ6nO_pag&usqp=CAU);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .p3{
+        width: 16%;
+        height: 32%;
+        background-image: url(https://static.punjabkesari.in/multimedia/06_47_191172883wood-for-home.-2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .p4{
+        width: 16%;
+        height: 32%;
+        background-image: url(https://cdn.storearmy.com/s/5aeb12f3a1bdebdf7981b712/CD-1600085030242.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .p5{
+        width: 16%;
+        height: 32%;
+        background-image: url(https://m.media-amazon.com/images/I/71SRcMJYvZS.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .p6{
+        width: 16%;
+        height: 32%;
+        background-image: url(https://i.ytimg.com/vi/_u9sZRX4HHU/maxresdefault.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .page6 h1{
+    /* font-size: 45px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #fff;
+    position: absolute;
+    left: 33%; */
+    color: white;
+    }
+    .page6 h4{
+        font-size:25px;
+        font-weight: 300;
+        font-family: sans-serif;
+        color: white;
+        
+        }
+    .page6 p{
+        /* font-size: 25px;
+        font-weight: 200;
+        font-family: sans-serif;
+        color: #fff;
+        position: absolute;
+        left: 20%; */
+        font-size: 25px;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+
+        }
+        
+        .page6>button{
+           padding: 10px 20px;
+           border: 2px solid white;
+           background: transparent;
+           border-radius: 40px;
+            color: white;
+        }
+        .btm
+        {
+            display: flex;
+            
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            background-color: aqua;
+            border: none;
+        }
+        .btm1
+        {
+           display: flex; 
+        }
+        .boxi
+        {
+            
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(43, 255, 0);
+            border: none;
+        }
+        .box1{
+            background-image: url(https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .box2{
+            background-image: url(https://m.media-amazon.com/images/I/71XtFjkYGWL._AC_UF894,1000_QL80_.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .box3{
+            background-image: url(https://polyhaven.com/api/og-image?type=textures&categories=wood);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .box4{
+            background-image: url(https://tiimg.tistatic.com/fp/1/008/077/6x3-feet-table-size-six-seater-teak-wood-material-type-dining-table-386.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .box5{
+            background-image: url(https://images.meesho.com/images/products/6186074/370ef_512.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .box6{
+            background-image: url(https://images.herzindagi.info/image/2020/Nov/easy-tips-to-clean-wooden-kitchen-utensils-in-hindi.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .boxi1{
+            background-image: url(https://images.pexels.com/photos/2976370/pexels-photo-2976370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .boxi2{
+            background-image: url(https://images.pexels.com/photos/803975/pexels-photo-803975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .boxi3{
+            background-image: url(https://images.pexels.com/photos/4558580/pexels-photo-4558580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .boxi4{
+            background-image: url(https://images.pexels.com/photos/1845829/pexels-photo-1845829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .boxi5{
+            background-image: url(https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+        .boxi6{
+            background-image: url(https://images.pexels.com/photos/1813502/pexels-photo-1813502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-position: center;
+            background-repeat: no-repeat;
+           background-size: cover;}    
+      
+        
+#page10{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+   /* margin-top: 60px; */
+}
+nav3
+{
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color:#6F2B06 ;
+    color: white;
+    
+ 
+}
+.nav2>i,.nav3>i
+{
+    font-size: 30px;
+    gap: 50px;
+}
+.nav3
+{
+    background-color: black;
+}
+#page11
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#page11>.circle
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(8, 6, 6);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5ed52827541a915be69dc593/1591284043614-ZUQP1CD3QI0SHXS6VV9D/footer-logo+02.png?format=300w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(-100px);
+}
+#page11>h1
+{
+    font-size: 15px;
+}
+
+
+
